@@ -26,7 +26,7 @@
  
  - jekyll 블로그게 만들어져 있다면  _config.yml 가 위치한 경로를 말합니다.
 
-~~~json
+~~~javascript
 ---
 layout: null
 ---
