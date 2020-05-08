@@ -27,7 +27,6 @@
  - jekyll 블로그게 만들어져 있다면  _config.yml 가 위치한 경로를 말합니다.
 
 ~~~json
-{% raw %}
 ---
 layout: null
 ---
@@ -42,7 +41,6 @@ layout: null
      } {% unless forloop.last %},{% endunless %}
     {% endfor %}
 ]
-{% endraw %}
 ~~~
 
 <br>
@@ -101,7 +99,6 @@ end
 - 위에서 다운로드 받은 jekyll-search.js, jekyll-search.min.js가 들어있는 경로를 정확히 해주세요.
 
 ~~~javascript
-{% raw %}
 ---
 layout: search
 page_title: Search
@@ -135,7 +132,6 @@ SimpleJekyllSearch({
      exclude: ['Welcome']
 });
 </script>
-{% endraw %}
 ~~~
 
 <br>
@@ -147,7 +143,6 @@ SimpleJekyllSearch({
 - search.html에 코드 입력
 
 ~~~html
-{% raw %}
 <!DOCTYPE html>
 <html>
   <body>
@@ -163,7 +158,6 @@ SimpleJekyllSearch({
       </div>
   </body>
 </html>
-{% endraw %}
 ~~~
 
 <br>
